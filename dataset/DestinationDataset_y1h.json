@@ -1,0 +1,17 @@
+{
+	"name": "DestinationDataset_y1h",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "olapdb",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "books",
+			"table": "Azure Blob Storage file"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

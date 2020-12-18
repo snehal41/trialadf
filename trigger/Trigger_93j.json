@@ -1,0 +1,28 @@
+{
+	"name": "Trigger_93j",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "Asg3DeltaCopyFromBlobPipeline",
+					"type": "PipelineReference"
+				},
+				"parameters": {
+					"windowStart": "@{addminutes(trigger().scheduledTime, -5)}",
+					"windowEnd": "@trigger().scheduledTime"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 5,
+				"startTime": "2020-12-18T03:55:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}

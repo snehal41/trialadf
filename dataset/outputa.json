@@ -1,0 +1,17 @@
+{
+	"name": "outputa",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "olapdb",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "output"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

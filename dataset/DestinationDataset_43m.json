@@ -1,0 +1,16 @@
+{
+	"name": "DestinationDataset_43m",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "olapdb",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"table": "output1"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

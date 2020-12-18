@@ -1,0 +1,17 @@
+{
+	"name": "DestinationDataset_tf2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "olapdb",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "",
+			"table": "asg3"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
